@@ -1,0 +1,362 @@
+{"intents":  [
+    {"tag": "greetings",
+     "patterns": ["hello", "hey", "hi", "good day", "greetings", "how's going?", "what's up?"],
+     "responses": ["Hello!", "Hey!", "What's up?", "What can i do for you?"]
+    },
+    {"tag": "hours",
+     "patterns": ["When arey you guys open", "what are your hours", "hours of open?"],
+     "responses": ["24/7", "we opened everday", "24 hours /day", "we opened for 24/7"]
+    },
+    {"tag": "tutor",
+     "patterns": ["How do I know if the item I'm looking for is still in stock or out of stock?", "Is it the item i searched are avaible?"],
+     "responses": ["For information on stock availability, please search for the item in the search area provided. When found, click on the item to view detailed info. On the product page, information on the availability of the item will appear, namely Ready stock. If the stock runs out, then Stock ready will contain Out Of Stock."]
+    },
+    {"tag": "order",
+     "patterns": ["How do I make a purchase or order goods?", "How do i order this item?", "How to order?"],
+     "responses": ["You just need to click BUY after that select the purchase method."]
+    },
+    {"tag": "delivery",
+     "patterns": ["Where is the delivery location from?", "where is this item shipped from?"],
+     "responses": ["From Bandung."]
+    },
+    {"tag": "dua",
+    "patterns": ["Hi! Is this product still available?"],
+    "responses": ["Still available, please order."]
+    },
+    {"tag": "tiga",
+    "patterns": ["How do I know if the item I'm looking for is still in stock or out of stock?"],
+    "responses": ["For information on stock availability, please search for the item in the search area provided. When found, click on the item to view detailed info. On the product page, information on the availability of the item will appear, namely Ready stock. If the stock runs out, then Stock ready will contain Out Of Stock."]
+    },
+    {"tag": "empat",
+    "patterns": ["How do I make a purchase or order goods?"],
+    "responses": ["You just need to click BUY after that select the purchase method."]
+    },
+    {"tag": "lima",
+    "patterns": ["Where is the delivery location from?"],
+    "responses": ["From Bandung."]
+    },
+    {"tag": "enam",
+    "patterns": ["How to pay?"],
+    "responses": ["The payment method is according to the purchase method you choose."]
+    },
+    {"tag": "tujuh",
+    "patterns": ["Can the payment be COD?"],
+    "responses": ["Yes."]
+    },
+    {"tag": "delapan",
+    "patterns": ["Is this safe? I'm afraid of being cheated, I've paid and then the item I want isn't there."],
+    "responses": ["We will not deceive you. For those of you who are still hesitant to transact with us, we accept payments via Tokopedia or Shopee."]
+    },
+    {"tag": "sembilan",
+    "patterns": ["I want to visit the physical store, what is the address?"],
+    "responses": ["We do not have a physical store, we are only an online shop."]
+    },
+    {"tag": "sepuluh",
+    "patterns": ["Will the item match the picture?"],
+    "responses": ["The photos we use are original photos/images that we get directly from our factory suppliers."]
+    },
+    {"tag": "sebelas",
+    "patterns": ["If I don't like the item, can it be returned?"],
+    "responses": ["Items that have been purchased cannot be returned, please customers to be careful before buying."]
+    },
+    {"tag": "duabelas",
+    "patterns": ["Why should I buy online?"],
+    "responses": ["Speeding up the process. By ordering online you will you will get prices faster and you will be able to go through order confirmation and payment process much faster. This could save days of your time."]
+    },
+    {"tag": "tigabelas",
+    "patterns": ["What information should I input when ordering?"],
+    "responses": ["our online ordering system will ask for all the important information you should submit. If you have a VAT number, please remember to submit it. This will make sure the shipment is not delayed because of the lack of VAT number"]
+    },
+    {"tag": "empatbelas",
+    "patterns": ["What payment methods can I use?"],
+    "responses": ["You can use all the major credit cards."]
+    },
+    {"tag": "limabelas",
+    "patterns": ["Is VAT charged?"],
+    "responses": ["If you have VAT number, then VAT is not charged. You need to remember to add the VAT number to your account information section. Online checkout system will automatically fill in the submitted VAT number when you order products. You can also add your VAT number during the checkout process manually."]
+    },
+    {"tag": "enambelas",
+    "patterns": ["Can I use pro-forma invoice?"],
+    "responses": ["Yes, you can use pro-forma invoice. Please contact rajasinga@gugel.crot if you want to use pro-forma invoice."]
+    },
+    {"tag": "tujuhbelas",
+    "patterns": ["What should I do if the payment is not accepted?"],
+    "responses": ["Please try again in a little while. If the payment is still not accepted, please verify your account balance. If everything is as it should, but you still can't make the payment, please contact rajasinga@gugel.crot notify us about the problem. We can manage the order manually."]
+    },
+    {"tag": "delapanbelas",
+    "patterns": ["How can I change delivery address?"],
+    "responses": ["Sign in to your account and go to my account. On my account you can change all your contact information."]
+    },
+    {"tag": "sembilanbelas",
+    "patterns": ["What are the delivery charges?"],
+    "responses": ["Delivery charges are dependent on the shipment requirements. If the products on your order are due to special requirements (for example dry ice) extra fee will be added to the shipment charges. You can see the shipping fees on the checkout process before the payment is made."]
+    },
+    {"tag": "duapuluh",
+    "patterns": ["How can I get offer of bulk amounts?"],
+    "responses": ["When you are logged in and you add products to shopping cart, you have the ability to send offer request to us using the shopping cart. You just need to add the products and quantities you are interested in and click offer request. We will send you an offer. Please note that this feature should only be used for bulk quantity price requests."]
+    },
+    {"tag": "duasatu",
+    "patterns": ["Can I pay with invoice?"],
+    "responses": ["If you have already established customer relationship with rajasinga, you will be granted ability to pay using invoice. If you have ordered several times from rajasinga but you don't see the invoice as a paying option on the checkout, please contact rajasinga@gugel.crot and we will check why the invoice is not activated on your account."]
+    },
+    {"tag": "duadua",
+    "patterns": ["Can I cancel my order?"],
+    "responses": ["If you want to cancel your order, please do so as soon as possible. If we have already processed your order, you need to contact us and return the product. Please contact rajasinga@gugel.crot"]
+    },
+    {"tag": "duatiga",
+    "patterns": ["Do I have to order online?"],
+    "responses": ["You can also send your order to rajasinga@gugel.crot. You can also order using FAX (+62696969) or by calling. Online ordering is preferred in most cases because by ordering online, you will save time, you will have easier payment process and all the information about the order will be accessible for you anytime. Also if you want to make same order later, you can use reorder feature."]
+    },
+    {"tag": "duaempat",
+    "patterns": ["Do you have the product in stock?"],
+    "responses": ["All the products which are shown on our site are available. Order lead time depends on the products and quantities."]
+    },
+    {"tag": "dualima",
+    "patterns": ["How to contact customer service?"],
+    "responses": ["If you have question regarding our online store (ordering, account questions, technical questions), please contact onlinestore@gugel.crot."]
+    },
+    {"tag": "duaenam",
+    "patterns": ["Can I return a product?"],
+    "responses": ["If you want to return a product, please contact rajasinga@gugel.crot"]
+    },
+    {"tag": "duatujuh",
+    "patterns": ["How can I track my order?"],
+    "responses": ["We will send you the tracking code of the shipment when the parcel has been sent."]
+    },
+    {"tag": "duadelapan",
+    "patterns": ["When is the shipping time?"],
+    "responses": ["Shipping time will be confirmed on the order confirmation document."]
+    },
+    {"tag": "duasembilan",
+    "patterns": ["How much for shipping cost?"],
+    "responses": ["Shipping costs are dependent on your location and products on your order. Some products need to be shipped in dry ice. These dry ice shipments have a slightly higher shipping fee. Our online store shows the shipping fee and shipping cost automatically on the checkout."]
+    },
+    {"tag": "tigapuluh",
+    "patterns": ["How can I change the shipping address?"],
+    "responses": ["You can easily change your shipping address on your account. You just need to login and click my account and edit.  You can also change the shipping address during the checkout process if you need. Just click edit below shipping address."]
+    },
+    {"tag": "tigasatu",
+    "patterns": ["What are the terms and conditions?"],
+    "responses": ["You can see the terms and conditions on the website."]
+    },
+    {"tag": "tigadua",
+    "patterns": ["How do create an account?"],
+    "responses": ["Go to our web page and click create a new account, then just fill in all the needed information and click create.  After submitting the form, your account will be confirmed and you will be notified.  "]
+    },
+    {"tag": "tigatiga",
+    "patterns": ["How can I retrieve my password?"],
+    "responses": ["You can retrieve your password by clicking forgot password?. Instruction on password retrieval will be send to your email."]
+    },
+    {"tag": "tigaempat",
+    "patterns": ["How do I change my personal details or email address?"],
+    "responses": ["You can easily change all your information on your account.  Go to login page and log in, then click my account and edit. Here you can change all your contact information."]
+    },
+    {"tag": "tigalima",
+    "patterns": ["What is your security?"],
+    "responses": ["Our web store is secured with SSL certificate. This means the information you input is encrypted and it will not be available for third parties."]
+    },
+    {"tag": "tigaenam",
+    "patterns": ["How long have you been in business?"],
+    "responses": ["Almost a decade."]
+    },
+    {"tag": "tigatujuh",
+    "patterns": ["What makes you different from your competitors?"],
+    "responses": ["I think we are not so different from our competitors."]
+    },
+    {"tag": "tigadelapan",
+    "patterns": ["From where do you operate?"],
+    "responses": ["From the internet."]
+    },
+    {"tag": "tigasembilan",
+    "patterns": ["Do you accept returns/exchanges over and above what customers are entitled to by law (i.e., a replacement/repair for a minor fault or refund for a major fault)?"],
+    "responses": ["Yes, we do."]
+    },
+    {"tag": "empatpuluh",
+    "patterns": ["Do you allow refunds for a change of mind? If so, how long do customers have to contact you?"],
+    "responses": ["Yes, it depends on the customer and the product."]
+    },
+    {"tag": "empatsatu",
+    "patterns": ["To where do you ship?"],
+    "responses": ["All around the world."]
+    },
+    {"tag": "empatdua",
+    "patterns": ["How long does it take you to process an order before it is dispatched?"],
+    "responses": ["It depends on the destination."]
+    },
+    {"tag": "empattiga",
+    "patterns": ["Where are your packages shipped from?"],
+    "responses": ["From our city, Bandung."]
+    },
+    {"tag": "empatempat",
+    "patterns": ["Do you ship packages internationally?"],
+    "responses": ["Yes, we do."]
+    },
+    {"tag": "empatlima",
+    "patterns": ["How do you price your postage?"],
+    "responses": ["It depends on the destination."]
+    },
+    {"tag": "empatenam",
+    "patterns": ["Do you offer loyalty points or reward points, gift certificates, etc.?"],
+    "responses": ["Yes, we do, the more you buy from us the more benefit you could get."]
+    },
+    {"tag": "empattujuh",
+    "patterns": ["Do you have days off?"],
+    "responses": ["No, we do not."]
+    },
+    {"tag": "empatdelapan",
+    "patterns": ["Can I request an item?"],
+    "responses": ["Yes, you can."]
+    },
+    {"tag": "empatsembilan",
+    "patterns": ["Do you guys give bonus gifts?"],
+    "responses": ["Yes, we do, and it is a mystery gift."]
+    },
+    {"tag": "limapuluh",
+    "patterns": ["Can I ask you about your private informations?"],
+    "responses": ["No."]
+    },
+    {"tag": "limasatu",
+    "patterns": ["How can I get a coupon?"],
+    "responses": ["Just explore our website and you will find one or two."]
+    },
+    {"tag": "limadua",
+    "patterns": ["What tune will the goods be shipped?"],
+    "responses": ["As soon as possible."]
+    },
+    {"tag": "limatiga",
+    "patterns": ["What is mode of payment?"],
+    "responses": ["Through payment cards."]
+    },
+    {"tag": "limaempat",
+    "patterns": ["Is the site safe?"],
+    "responses": ["Yes, you could see our website reviews. Our web store is secured with SSL certificate. This means the information you input is encrypted and it will not be available for third parties."]
+    },
+    {"tag": "limalima",
+    "patterns": ["Do you offer incentives?"],
+    "responses": ["Yes, we do have some discount coupons at our website."]
+    },
+    {"tag": "limaenam",
+    "patterns": ["Where do your products come from?"],
+    "responses": ["From our city, Bandung."]
+    },
+    {"tag": "limatujuh",
+    "patterns": ["Do you have return policies?"],
+    "responses": ["Yes we do, so you don't need to worry about it."]
+    },
+    {"tag": "limadelapan",
+    "patterns": ["What are your customer reviews look like?"],
+    "responses": ["We rarely had any bad reviews, you could see our website reviews at our website."]
+    },
+    {"tag": "limasembilan",
+    "patterns": ["How standard are the products you are selling?"],
+    "responses": ["You could read the descriptions on the product you are interested."]
+    },
+    {"tag": "enampuluh",
+    "patterns": ["Do you know anyone who has shopped from this site?"],
+    "responses": ["You could see who has bought the item at the site."]
+    },
+    {"tag": "enamsatu",
+    "patterns": ["How long has the brand being operating?"],
+    "responses": ["Almost a decade."]
+    },
+    {"tag": "enamdua",
+    "patterns": ["How many products will be sold?"],
+    "responses": ["We sold almost a million products per month."]
+    },
+    {"tag": "enamtiga",
+    "patterns": ["How hands-on will you be with your online store?"],
+    "responses": ["We are very handy at it."]
+    },
+    {"tag": "enamempat",
+    "patterns": ["How important is design?"],
+    "responses": ["That is one of the most important thing, maybe we should say 10/10 of importance."]
+    },
+    {"tag": "enamlima",
+    "patterns": ["How complex are your shipping needs?"],
+    "responses": ["It is automatic."]
+    },
+    {"tag": "enamenam",
+    "patterns": ["Will you offer coupons or specials?"],
+    "responses": ["Check the system’s coupon  capabilities to see if you can work your promotion plans into their supported systems."]
+    },
+    {"tag": "enamtujuh",
+    "patterns": ["How will orders be processed?"],
+    "responses": ["It may be possible to integrate your current credit card processor with the e-commerce system if not, you’ll need to consider switching to a different processor, tying them together with PayPal, or going with no automatic processing at all"]
+    },
+    {"tag": "enamdelapan",
+    "patterns": ["Do you work here?"],
+    "responses": ["Yes, I do."]
+    },
+    {"tag": "enamsembilan",
+    "patterns": ["Can you try this on for me?"],
+    "responses": ["No, you can just try it on yourself after you bought it."]
+    },
+    {"tag": "tujuhpuluh",
+    "patterns": ["Do you sell adult toys too?"],
+    "responses": ["Yes we do, we have a lot of choices."]
+    },
+    {"tag": "tujuhsatu",
+    "patterns": ["How much money do you make?"],
+    "responses": ["We do not share that information in here ma'am/sir."]
+    },
+    {"tag": "tujuhdua",
+    "patterns": ["Are you open on Saturday?"],
+    "responses": ["We open everyday."]
+    },
+    {"tag": "tujuhtiga",
+    "patterns": ["Do you have anything that isn't ugly?"],
+    "responses": ["Everything in here has the best quality, none of them are ugly."]
+    },
+    {"tag": "tujuhempat",
+    "patterns": ["Can you tell me a joke?"],
+    "responses": ["This is an online shop sir/ma'am."]
+    },
+    {"tag": "tujuhlima",
+    "patterns": ["Is there any coupon available today?"],
+    "responses": ["You can check at the coupen section."]
+    },
+    {"tag": "tujuhenam",
+    "patterns": ["Is there any promo available today?"],
+    "responses": ["You can check at the promo section."]
+    },
+    {"tag": "tujuhtujuh",
+    "patterns": ["Is there any discount available today?"],
+    "responses": ["You can check at the discount section."]
+    },
+    {"tag": "tujuhdelapan",
+    "patterns": ["Can I use my father's credit card to buy an item?"],
+    "responses": ["Yes, you can."]
+    },
+    {"tag": "tujuhsembilan",
+    "patterns": ["Can I use my mom's credit card to buy an item?"],
+    "responses": ["Yes, you can."]
+    },
+    {"tag": "payment",
+     "patterns": ["How to pay?", "what payment methods are available?", "what method can I pay for it?"],
+     "responses": ["The payment method is according to the purchase method you choose."]
+    },
+    {"tag": "COD",
+     "patterns": ["Can the payment be COD?"],
+     "responses": ["Yes."]
+    },
+    {"tag": "query",
+     "patterns": ["Is this safe? I'm afraid of being cheated, I've paid and then the item I want isn't there."],
+     "responses": ["We will not deceive you. For those of you who are still hesitant to transact with us, we accept payments via Tokopedia or Shopee."]
+    },
+    {"tag": "stocks",
+     "patterns": ["Hi! Is this product still available?"],
+     "responses": ["Still available, please order."]
+    },
+    {"tag": "qu",
+     "patterns": ["Will the item match the picture?"],
+     "responses": ["The photos we use are original photos/images that we get directly from our factory suppliers."]
+    },
+    {"tag": "quey",
+     "patterns": ["If I don't like the item, can it be returned?"],
+     "responses": ["Items that have been purchased cannot be returned, please customers to be careful before buying."]
+    },
+    {"tag": "goodbye",
+     "patterns": ["goodbye", "See you later", "bye", "have a good day", "see ya"],
+     "responses": ["Goodbye!"]
+}
+]}
